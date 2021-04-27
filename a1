@@ -1,0 +1,24 @@
+package com.company;
+
+public class a1 {
+    public static void main(String[] args) {
+
+        int[] num = {24,56,67,8,9,90,89};
+        int sum = 0;
+        float average;
+
+       
+        for (int number: num) {
+            sum += number;
+        }
+
+       
+        int gg = num.length;
+
+       
+        average =  ((float)sum / (float)gg);
+
+        System.out.println("Sum = " + sum);
+        System.out.println("Average = " + average);
+    }
+}
