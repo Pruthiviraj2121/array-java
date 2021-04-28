@@ -1,0 +1,13 @@
+package com.company;
+
+public class a5 {
+    public static void main(String[] args){
+        String str = "PUMA";
+        String myname = "Pruthivi";
+        String pet = "Jewel";
+        char r = str.charAt(2);
+        System.out.println(r);
+        System.out.println(myname.concat("raj"));
+        System.out.println(pet.length());
+    }
+}
