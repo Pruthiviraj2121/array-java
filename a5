@@ -1,0 +1,12 @@
+package com.company;
+
+public class a7 {
+    public static void main(String[] args){
+        float[] m = {6.78f,3.554f,2.90f};
+        float sum =0;
+        for(float w:m){
+            sum= sum + w;
+            System.out.println("the sum is:" +sum);
+        }
+    }
+}
