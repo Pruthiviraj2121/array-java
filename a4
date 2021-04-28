@@ -1,0 +1,22 @@
+package com.company;
+
+public class a6 {
+    public static void main(String[] args){
+        int[][] x = {{1,5,7},{5,8,0,3},{1,6,3,2,7}};
+        System.out.println("length 1:" +x[0].length);
+        System.out.println("length 2:" +x[1].length);
+        System.out.println("length 3:" +x[2].length);
+    }
+}
+
+
+package com.company;
+
+public class a6 {
+    public static void main(String[] args){
+        int[][] x = {{1,5,7},{5,8,0,3},{1,6,3,2,7}};
+        for(int[][] y:x){
+            for(int z:y)
+            }
+    }
+}
